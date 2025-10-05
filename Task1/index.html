@@ -84,79 +84,81 @@
 
 
         <form>
-            <div>
-                <label for="surname">Введите фамилию: </label>
-                <input id="surname" type="text" name="surname" placeholder="Введите фамилию">
-            </div>
-
-            <div>
-                <label for="name">Введите имя: </label>
-                <input id="name" type="text" name="name" placeholder="Введите имя">
-            </div>
-
-            <div>
-                <label for="name">Введите отчество: </label>
-                <input id="second_name" type="text" name="second_name" placeholder="Введите отчество">
-            </div>
-
-            <div>
-                <label for="name">Введите номер телефона: </label>
-                <input id="phone_number" type="tel" name="phone_number" placeholder="Введите номер телефона">
-            </div>
-                
-            <div>
-                <label for="name">Введите адрес эл.почты: </label>
-                <input id="email" type="email" name="email" placeholder="Введите адрес эл.почты">
-            </div>
-
-            <div>
-                <label for="name">Введите дату рождения: </label>
-                <input id="birth" type="date" name="birth" placeholder="Введите дату рождения">
-            </div>
-            
-            <p>Укажите Ваш пол:</p>
-            <div>
-                <input id="man" name="gender" type="radio">
-                <label for="man">Мужской</label>
-            </div>
-            <div>
-                <input id="woman" name="gender" type="radio">
-                <label for="woman">Женский</label>
-            </div>
-            
-            <label>
-        	Ваш любимый язык программирования?: <br>
-                <select name="field-name[]" multiple="multiple">
-                    <option value="Значение1">Pascal</option>
-                    <option value="Значение2" selected="selected">C</option>
-                    <option value="Значение3" selected="selected">C++</option>
-                    <option value="Значение4" selected="selected">JavaScript</option>
-                    <option value="Значение5" selected="selected">PHP</option>
-                    <option value="Значение6" selected="selected">Java</option>
-                    <option value="Значение7" selected="selected">Python</option>
-                    <option value="Значение8" selected="selected">Haskel</option>
-                    <option value="Значение9" selected="selected">Clojure</option>
-                    <option value="Значение10" selected="selected">Prolog</option>
-                    <option value="Значение11" selected="selected">Scala</option>
-                </select>
-            </label>
-
-            <br>
-
-            <label>
-        	Ваша биография:
-            <br>
-        	    <textarea name="field-name" placeholder="где работаете и т.д."></textarea>
-      	    </label>
-
-            <br>
-
-            <p>С контрактом:</p>
-      	    <label><input type="checkbox" checked="checked" name="check-1"> Ознакомлен (а)</label><br>
-
-            <br>
-
-	        <input type="submit" value="Сохранить">
+			<fieldset>
+	            <div>
+	                <label for="surname">Введите фамилию: </label>
+	                <input id="surname" type="text" name="surname" placeholder="Введите фамилию">
+	            </div>
+	
+	            <div>
+	                <label for="name">Введите имя: </label>
+	                <input id="name" type="text" name="name" placeholder="Введите имя">
+	            </div>
+	
+	            <div>
+	                <label for="name">Введите отчество: </label>
+	                <input id="second_name" type="text" name="second_name" placeholder="Введите отчество">
+	            </div>
+	
+	            <div>
+	                <label for="name">Введите номер телефона: </label>
+	                <input id="phone_number" type="tel" name="phone_number" placeholder="Введите номер телефона">
+	            </div>
+	                
+	            <div>
+	                <label for="name">Введите адрес эл.почты: </label>
+	                <input id="email" type="email" name="email" placeholder="Введите адрес эл.почты">
+	            </div>
+	
+	            <div>
+	                <label for="name">Введите дату рождения: </label>
+	                <input id="birth" type="date" name="birth" placeholder="Введите дату рождения">
+	            </div>
+	            
+	            <p>Укажите Ваш пол:</p>
+	            <div>
+	                <input id="man" name="gender" type="radio">
+	                <label for="man">Мужской</label>
+	            </div>
+	            <div>
+	                <input id="woman" name="gender" type="radio">
+	                <label for="woman">Женский</label>
+	            </div>
+	            
+	            <label>
+	        	Ваш любимый язык программирования?: <br>
+	                <select name="field-name[]" multiple="multiple">
+	                    <option value="Значение1">Pascal</option>
+	                    <option value="Значение2" selected="selected">C</option>
+	                    <option value="Значение3" selected="selected">C++</option>
+	                    <option value="Значение4" selected="selected">JavaScript</option>
+	                    <option value="Значение5" selected="selected">PHP</option>
+	                    <option value="Значение6" selected="selected">Java</option>
+	                    <option value="Значение7" selected="selected">Python</option>
+	                    <option value="Значение8" selected="selected">Haskel</option>
+	                    <option value="Значение9" selected="selected">Clojure</option>
+	                    <option value="Значение10" selected="selected">Prolog</option>
+	                    <option value="Значение11" selected="selected">Scala</option>
+	                </select>
+	            </label>
+	
+	            <br>
+	
+	            <label>
+	        	Ваша биография:
+	            <br>
+	        	    <textarea name="field-name" placeholder="где работаете и т.д."></textarea>
+	      	    </label>
+	
+	            <br>
+	
+	            <p>С контрактом:</p>
+	      	    <label><input type="checkbox" checked="checked" name="check-1"> Ознакомлен (а)</label><br>
+	
+	            <br>
+	
+		        <input type="submit" value="Сохранить">
+			</fieldset>
         </form>
     </body>
 </html>
